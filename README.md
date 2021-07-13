@@ -1,7 +1,7 @@
 # az-private-linky-integration-suite
 SAP Integration Suite artifacts to get you started with SAP BTP Private Link Service for Azure.
 
-Find my blog post series on the topic [here](https://blogs.sap.com/2021/07/02/whatever-happens-in-an-azure-and-btp-private-linky-swear-stays-in-the-linky-swear/).
+Find my blog post series on the topic [here](https://blogs.sap.com/2021/07/13/btp-private-linky-swear-with-azure-business-as-usual-for-iflows/).
 
 The package contains two iFlows. One configured against the CAP implementation and one for Java. They differ due to the chosen router configuration. They can be adapted as required.
 
