@@ -17,7 +17,7 @@ We used the `/sap/opu/odata/sap/epm_ref_apps_prod_man_srv` OData service for thi
 ## Project context
 [Azure Private Link Service](https://docs.microsoft.com/en-us/azure/private-link/private-link-service-overview) allows private connectivity between resources running on Azure in different environments. That includes SAP's Business Technology Platform when provisioned on Azure. SAP made that functionality available via a CloudFoundry Service.
 
-Meaning you get now a managed component to expose your SAP backends to BTP on Azure without the need for a Cloud Connector. We developed against S4 primarily but anything executable in a service behind the Azure load balancer would be reachable. That involves for instance ECC, BO, PI/PO, SolMan etc.
+Meaning you get now a managed component to expose your SAP backends to BTP on Azure without the need for a Cloud Connector. For this example, we developed against S4 primarily but anything executable in a service behind the Azure load balancer would be reachable. That involves for instance ECC, BO, PI/PO, SolMan, SAP CAR etc.
 
 ![Architecture overview](/linky-cpi-overview.png)
 
